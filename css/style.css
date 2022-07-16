@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gulzar&family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Tiro+Kannada&family=Titillium+Web:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gulzar&family=Lato&family=Merriweather+Sans&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Tiro+Kannada&family=Titillium+Web:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Francois+One&family=Gulzar&family=Lato&family=Merriweather+Sans&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Tiro+Kannada&family=Titillium+Web:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Francois+One&family=Gulzar&family=Lato&family=Merriweather+Sans&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Roboto+Condensed&family=Short+Stack&family=Tiro+Kannada&family=Titillium+Web:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Francois+One&family=Gulzar&family=Lato&family=Merriweather+Sans&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Roboto+Condensed&family=Short+Stack&family=Tiro+Kannada&family=Titillium+Web:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.title_bar {
+  background-color: #f7f8f8;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Left_title ul,
+.Right_title ul {
+  display: flex;
+  padding: 10px;
+}
+
+.Left_title ul li,
+.Right_title ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.Left_title ul li a,
+.Right_title ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #aaa9b7;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.Left_title ul li a:hover,
+.Right_title ul li a:hover {
+  color: #000;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+
+.Left_title ul li span .hovertext {
+  position: relative;
+}
+
+.Left_title ul li span .hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0px;
+  width: 140px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.content {
+  background-color: #fff;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 15px;
+}
+
+.navigations ul {
+  display: flex;
+  /* padding: 10px; */
+}
+
+.navigations ul li {
+  list-style-type: none;
+}
+
+.navigations ul li a {
+  text-decoration: none;
+  font-family: 'Francois One', sans-serif;
+  padding: 0 10px;
+  color: #aaa9b7;
+  font-size: 16px;
+  line-height: 64px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.navigations ul li a:hover {
+  color: #000;
+  transition: 0.5s ease-out;
+}
+
+.Container1 {
+  height: 700px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.cards {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_cards {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top_left {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/10/pichaiethics.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 60%;
+}
+
+.top_left h1 {
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  line-height: 12px;
+  letter-spacing: -0.2px;
+  padding: 200px 0 10px 30px;
+}
+
+.top_left h2 {
+  color: #fff;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  padding-left: 20px;
+}
+
+.bottom_left {
+  background-image: url(./images/cal.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 38%;
+}
+
+.right_cards {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top_right {
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.small_left {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/fil…/2022/07/rsz_myenergi-4syuf9mvwju-unsplash_1.jpeg);
+  width: 49%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.small_right {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2022/07/comparison-final-.jpg);
+  width: 49%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bottom_right {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2022/07/Untitled-design-92-8.jpg);
+  height: 59%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container2 {
+  height: 150px;
+  background-color: #fff;
+}
