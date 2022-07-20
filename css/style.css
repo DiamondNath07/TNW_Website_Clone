@@ -23,6 +23,9 @@ body {
   height: 50px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .Left_title ul,
@@ -79,8 +82,12 @@ body {
 .content {
   background-color: #fff;
   height: 70px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  box-shadow: 5px 5px 10px #aaa9b73a;
+  top: 3rem;
 }
 
 .logo {
@@ -242,7 +249,7 @@ span button:hover {
 .small_right h4 {
   font-family: 'Poppins', sans-serif;
   color: #fff;
-  text-shadow: 0 0 3px #000;
+  text-shadow: 5px 5px 10px #000;
   font-size: 28px;
   line-height: 30px;
   padding-left: 30px;
@@ -299,7 +306,8 @@ span button:hover {
 .top_cards {
   display: flex;
   justify-content: space-around;
-  height: 400px;
+  height: 100px;
+  padding-bottom: 50px;
 }
 
 .card_1,
@@ -354,4 +362,177 @@ p:hover {
   text-decoration: underline;
   color: #000;
   transition: 5s ease-out;
+}
+
+.container3 {
+  height: 1500px;
+  background-color: #fff;
+  padding-top: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 95%;
+}
+
+.container3 span h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 40px;
+  line-height: 22px;
+  text-transform: capitalize;
+  padding: 20px 0 0 30px;
+}
+
+.container3a,
+.container3b,
+.container3c {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.classA,
+.classB,
+.classC,
+.classD,
+.classE,
+.classF,
+.classG,
+.classH,
+.classI,
+.classJ,
+.classK,
+.classL {
+  width: 24%;
+}
+
+/* .classA * {
+  padding: 1px;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.classA h2,
+.classB h2,
+.classC h2,
+.classD h2,
+.classE h2,
+.classF h2,
+.classG h2,
+.classH h2,
+.classI h2,
+.classJ h2,
+.classK h2,
+.classL h2 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 15px;
+  padding-top: 10px;
+  font-weight: 100;
+  color: #aaa9b7;
+}
+
+.classA h2:hover,
+.classB h2:hover,
+.classC h2:hover,
+.classD h2:hover,
+.classE h2:hover,
+.classF h2:hover,
+.classG h2:hover,
+.classH h2:hover,
+.classI h2:hover,
+.classJ h2:hover,
+.classK h2:hover,
+.classL h2:hover {
+  color: #000;
+  transition: 0.5s ease-in-out;
+}
+
+.classA p,
+.classB p,
+.classC p,
+.classD p,
+.classE p,
+.classF p,
+.classG p,
+.classH p,
+.classI p,
+.classJ p,
+.classK p,
+.classL p {
+  padding-top: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #000;
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+.classA p:hover,
+.classB p:hover,
+.classC p:hover,
+.classD p:hover,
+.classE p:hover,
+.classF p:hover,
+.classG p:hover,
+.classH p:hover,
+.classI p:hover,
+.classJ p:hover,
+.classK p:hover,
+.classL p:hover {
+  transition: 0.5s ease-in-out;
+  text-decoration: 2px rgba(135, 189, 243, 0.582) underline;
+}
+
+.btn_wrapper {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.latest {
+  background: #6644ff;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: 1px solid #6644ff;
+  border-radius: 23px;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navbar_news {
+  padding-top: 100px;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  background-color: #6644ff;
+}
+
+.navbar_news h1 {
+  color: #fff;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 80px;
+  line-height: 90px;
+  padding-bottom: 10px;
+}
+
+.navbar_news h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+.navbar_news h2 a {
+  text-decoration: none;
+  color: cyan;
+}
+
+.navbar_news h2 a:hover {
+  color: rgba(255, 255, 255, 0.185);
+  transition: 0.5s ease-out;
 }
