@@ -87,7 +87,7 @@ body {
   justify-content: space-between;
   position: fixed;
   box-shadow: 5px 5px 10px #aaa9b73a;
-  top: 3rem;
+  top: 2.6rem;
 }
 
 .logo {
@@ -535,4 +535,21 @@ a {
 .navbar_news h2 a:hover {
   color: rgba(255, 255, 255, 0.185);
   transition: 0.5s ease-out;
+}
+
+.icon_tags ul {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.icon_tags ul li {
+  list-style: none;
+}
+
+.icon_tags ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 30px;
+  color: #aaa9b7;
 }
